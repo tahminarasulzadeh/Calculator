@@ -1,0 +1,28 @@
+.general {
+    width: 200px;
+    height: 230px;
+    background-color:lightblue;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.one , .two, .three , .plus, .minus , .four, .five, .six, .seven, .eigth, .nine, .btn, .c, .equal, .zero, .btn2{
+    width: 44px;
+    height: 35px;
+    cursor: pointer;
+}
+.input {
+    width: 170px;
+    height: 30px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.plus,  .minus , .btn, .btn2 {
+    background-color: yellow;
+}
+.c {
+    background-color: orange;
+}

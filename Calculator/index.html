@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="general">
+      <input type="text" class="input" readonly="readonly" id="input" />
+      <div class="button">
+        <button class="one" id="one" value="1" onclick="send(1)">1</button>
+        <button class="two" id="two" value="2" onclick="send(2)">2</button>
+        <button class="three" id="three" value="3" onclick="send(3)">3</button>
+        <button class="plus" id="plus" onclick="send('+')" value="+">+</button>
+      </div>
+      <div class="button">
+        <button class="four" value="4" id="four" onclick="send(4)">4</button>
+        <button class="five" value="5" id="five" onclick="send(5)">5</button>
+        <button class="six" value="6" id="six" onclick="send(6)">6</button>
+        <button class="minus" id="minus" onclick="send('-')" value="-">
+          -
+        </button>
+      </div>
+      <div class="button">
+        <button class="seven" value="7" id="seven" onclick="send(7)">7</button>
+        <button class="eigth" value="8" id="eigth" onclick="send(8)">8</button>
+        <button class="nine" value="9" id="nine" onclick="send(9)">9</button>
+        <button class="btn" id="btn" onclick="send('*')" value="*">*</button>
+      </div>
+      <div class="button">
+        <button class="c" onclick="remove()">c</button>
+        <button class="zero" value="0" id="zero" onclick="send(0)">0</button>
+        <button class="equal" onclick="equal()">=</button>
+        <button class="btn2" onclick="send('/')" id="btn2" value="/">/</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
